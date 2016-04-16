@@ -27,7 +27,7 @@ $('form').submit(function (evt) {
       $searchField.prop("disabled", false);
       $submitButton.attr("disabled", false).val("Search");
     }
-    $.getJSON(flickerAPI, flickrOptions, displayPhotos);
+    $.getJSON(flickerAPI, flickrOptions, displayPhotos); //how to push JSON.
    
    
    
